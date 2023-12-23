@@ -1,0 +1,12 @@
+#night light
+	exec wlsunset -t 3500k -T 3501k
+#polkit
+	exec /usr/bin/lxpolkit &
+#notification
+	exec mako
+#flashfocus animation
+	exec --no-startup-id flashfocus
+#problem with gtk apps
+	exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY WAYSOCK	
+	exec hash dbus-update-activation-environment 2>/dev/null && \
+	dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY WAYSOCK

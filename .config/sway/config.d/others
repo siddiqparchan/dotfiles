@@ -1,0 +1,23 @@
+#scaling factor
+        output eDP-1 scale 1.25
+#Wallpaper
+        output * bg $HOME/saya-enjoyers/Wallpaper/nicesky.jpg fill
+#gaps
+        gaps inner 8px
+        gaps outer 8px
+# Input configuration
+	input type:touchpad {
+	    dwt enabled
+	    tap enabled
+	    natural_scroll enabled
+	    middle_emulation enabled
+	}
+	input "type:keyboard" {
+		xkb_options caps:swapescape
+	}
+	input type:pointer {
+		pointer_accel -0.4
+	}
+#no title bar
+       font pango: RobotoMonoNerdFont Regular 0
+       titlebar_padding 1

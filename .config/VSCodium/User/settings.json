@@ -1,0 +1,15 @@
+{
+    "keyboard.dispatch": "keyCode",
+    "window.titleBarStyle": "custom",
+    "git.enabled": false,
+    "editor.fontSize": 15,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "Catppuccin Macchiato",
+}
