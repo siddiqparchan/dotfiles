@@ -70,27 +70,6 @@ alias suspend=" light -S 0
                 swaylock"
 alias ls="ls --color=auto"
 
-#powerlevel9k
-source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
-#custom
-ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_MODE="nerdfont-complete"
-POWERLEVEL9K_DISABLE_RPROMPT=false
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="↳ "
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_elementary_icon dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status node_version command_execution_time)
-POWERLEVEL9K_NODE_VERSION_BACKGROUND='seagreen1'
-POWERLEVEL9K_NODE_VERSION_FOREGROUND='grey30'
-POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND='pink1'
-POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='grey30'
-POWERLEVEL9K_CUSTOM_ELEMENTARY_ICON="echo  `whoami` "
-POWERLEVEL9K_CUSTOM_ELEMENTARY_ICON_BACKGROUND='green'
-POWERLEVEL9K_CUSTOM_ELEMENTARY_ICON_FOREGROUND='grey30'
-POWERLEVEL9K_VCS_GIT_GITHUB_ICON=$'\uF408 '
-ZSH_DISABLE_COMPFIX=true
-
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 
