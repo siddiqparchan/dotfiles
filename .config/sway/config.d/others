@@ -1,7 +1,7 @@
 #scaling factor
         output eDP-1 scale 1.25
 #Wallpaper
-        output * bg $HOME/saya-enjoyers/Wallpaper/nicesky.jpg fill
+        output * bg $HOME/saya-enjoyers/Wallpaper/abstract.png fill
 #gaps
         gaps inner 8px
         gaps outer 8px

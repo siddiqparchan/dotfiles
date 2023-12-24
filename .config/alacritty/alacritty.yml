@@ -14,7 +14,8 @@ font:
   bold_italic:
     family: "RobotoMono Nerd Font"
 
-    # Default colors
+ # Default colors
+colors:
     primary:
         background: "#24273A" # base
         foreground: "#CAD3F5" # text

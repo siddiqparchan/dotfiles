@@ -9,7 +9,7 @@ set $right l
     
 #some set
 set $term alacritty
-set $menu wofi -l top --show drun
+set $menu wofi --show drun
 
 ### Key bindings
 #
