@@ -1,6 +1,6 @@
 #transparent
 window:
-  opacity: 0.8
+  opacity: 0.5
 #font
 font:
   size: 13

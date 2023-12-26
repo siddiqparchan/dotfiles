@@ -5,8 +5,6 @@ set $term alacritty
 #launch apps using keybinding
 	#open thunar
 	bindsym $mod+n exec thunar
-	#open browser
-	bindsym $mod+m exec brave-browser-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
 	#open rofi filebrowser
 	bindsym $mod+Shift+n exec rofi -show filebrowser -show-icons
 	#open dmenu
@@ -20,6 +18,7 @@ set $term alacritty
 	bindsym XF86AudioMicMute exec amixer -q -D pulse sset Capture toggle
 	bindsym XF86MonBrightnessDown exec light -U 1
 	bindsym XF86MonBrightnessUp exec light -A 1
+	bindsym $mod+Print exec grim 	
 	bindsym Print exec grim -g "$(slurp)"	
 #toggle night light
 	bindsym $mod+Shift+Backspace exec --no-startup-id wlsunset -t 3500k -T 3501k

@@ -1,3 +1,8 @@
+#swayidle
+exec swayidle -w \
+         timeout 300 'swaylock -f -c 000000' \
+         timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+         before-sleep 'swaylock -f -c 000000'
 #scaling factor
         output eDP-1 scale 1.25
 #Wallpaper
@@ -7,13 +12,13 @@
         gaps outer 8px
 # Input configuration
 	input type:touchpad {
-	    dwt enabled
+		dwt disabled
 	    tap enabled
 	    natural_scroll enabled
 	    middle_emulation enabled
 	}
 	input "type:keyboard" {
-		xkb_options caps:swapescape
+		xkb_options caps:escape
 	}
 	input type:pointer {
 		pointer_accel -0.4
