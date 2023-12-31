@@ -18,6 +18,8 @@ set $term alacritty
 	bindsym XF86AudioMicMute exec amixer -q -D pulse sset Capture toggle
 	bindsym XF86MonBrightnessDown exec light -U 1
 	bindsym XF86MonBrightnessUp exec light -A 1
+	bindsym $mod+XF86MonBrightnessDown exec light -U 5
+	bindsym $mod+XF86MonBrightnessUp exec light -A 5
 	bindsym $mod+Print exec grim 	
 	bindsym Print exec grim -g "$(slurp)"	
 #toggle night light

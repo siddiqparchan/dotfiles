@@ -4,8 +4,6 @@
 	exec /usr/bin/lxpolkit &
 #notification
 	exec mako
-#flashfocus animation
-	exec --no-startup-id flashfocus
 #problem with gtk apps
 	exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY WAYSOCK	
 	exec hash dbus-update-activation-environment 2>/dev/null && \

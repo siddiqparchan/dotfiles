@@ -50,10 +50,10 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 export QT_QPA_PLATFORMTHEME=qt5ct
 export PATH="$PATH:/home/diq/.local/bin"
 #aliases
-alias suspend=" light -S 0
-                systemctl suspend 
+alias suspend=" systemctl suspend 
                 swaylock -f -c 000000"
 alias ls="ls --color=auto"
+alias g++="g++ --std=c++17"
 
 #load zsh-autosuggestions
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
